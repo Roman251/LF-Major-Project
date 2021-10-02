@@ -1,0 +1,86 @@
+# Chronic_Kidney_Disease Data Set
+
+outcome - outcome (1,0)
+
+age - age (age in years)
+bp - blood pressure (bp in mm/Hg)
+sg - specific gravity (1.005,1.010,1.015,1.020,1.025)
+al - albumin (0,1,2,3,4,5)
+su - sugar (0,1,2,3,4,5)
+rbc - red blood cells (normal,abnormal)
+pc - pus cell (normal,abnormal)
+pcc - pus cell clumps (present,notpresent)
+ba - bacteria (present,notpresent)
+bgr - blood glucose random (bgr in mgs/dl)
+bu - blood urea (bu in mgs/dl)
+sc - serum creatinine (sc in mgs/dl)
+sod - sodium (sod in mEq/L)
+pot - potassium (pot in mEq/L)
+hemo - hemoglobin
+pcv - packed cell volume (gms)
+wc - white blood cell count (wc in cells/cumm)
+rc - red blood cell count (in millions/cmm)
+htn - hypertension  (yes,no)
+dm - diabetes mellitus  (yes,no)
+cad - coronary artery disease (yes,no)
+appet - appetite (good,poor)
+pe - pedal edema (yes,no)
+ane - anemia (yes,no)
+
+
+# Winconsin Breast Cancer Dataset
+
+outcome (M = malignant, B = benign)
+
+a) radius (mean of distances from center to points on the perimeter)
+b) texture (standard deviation of gray-scale values)
+c) perimeter
+d) area
+e) smoothness (local variation in radius lengths)
+f) compactness (perimeter^2 / area - 1.0)
+g) concavity (severity of concave portions of the contour)
+h) concave points (number of concave portions of the contour)
+i) symmetry
+j) fractal dimension ("coastline approximation" - 1)
+
+# Pima Indian Diabetes Dataset
+
+outcome : a test whether the patient showed signs of diabetes (coded zero if negative, one if positive).
+
+number of times pregnant,
+plasma glucose concentration at 2 hours in an oral glucose tolerance test,
+diastolic blood pressure (mmHg),
+triceps skin fold thickness (mm),
+2-hour serum insulin (mu U/ml),
+body mass index (weight in kg/(height in m2)),
+diabetes pedigree function, age (years) and
+
+# Heart Disease Dataset 
+
+outcome: 0 = No Disease; 1= Disease
+
+age:age in years
+sex:(1 = male; 0 = female)
+cp: chest pain type
+-- value 1: typical angina
+-- value 2: atypical angina
+-- value 3: non-anginal pain
+-- value 4: asymptomatic
+restbps: resting blood pressure (in mm Hg on admission to the hospital)
+chol: serum cholestoral in mg/dl
+fbs: (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+restecg: resting electrocardiographic results
+-- value 0: normal
+-- value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+-- value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
+thalach: maximum heart rate achieved
+exang: exercise induced angina (1 = yes; 0 = no)
+oldpeak = ST depression induced by exercise relative to rest
+slope: the slope of the peak exercise ST segment
+-- value 1: upsloping
+-- value 2: flat
+-- value 3: downsloping
+Carotid artery(ca): number of major vessels (0-3) colored by flourosopy
+Thalassemia(thal): 3 = normal; 6 = fixed defect; 7 = reversable defect.
+
+# Indian Patient Liver Records

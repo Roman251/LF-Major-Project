@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/romanregmi/Desktop/LF-Major-Project/src/mlruns/0/b607cf73cd5b4c1ab02db0eb54dde69f/artifacts
+end_time: 1633190967919
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: b607cf73cd5b4c1ab02db0eb54dde69f
+run_uuid: b607cf73cd5b4c1ab02db0eb54dde69f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1633190960030
+status: 3
+tags: []
+user_id: romanregmi

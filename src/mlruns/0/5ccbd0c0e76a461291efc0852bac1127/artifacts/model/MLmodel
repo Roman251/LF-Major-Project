@@ -1,0 +1,19 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.9.4
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.2
+run_id: 5ccbd0c0e76a461291efc0852bac1127
+signature:
+  inputs: '[{"name": "pregnancies", "type": "long"}, {"name": "glucose", "type": "long"},
+    {"name": "bp", "type": "long"}, {"name": "skin_thickness", "type": "long"}, {"name":
+    "insulin", "type": "double"}, {"name": "bmi", "type": "double"}, {"name": "diabetes_pedigree_function",
+    "type": "double"}, {"name": "age", "type": "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2021-10-02 16:08:54.363316'
