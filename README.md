@@ -58,7 +58,7 @@ The categorical/nominal variables present were binary. Simple ```replace()``` fu
 
 The features were scaled using the Standardization technique when training the model using the ```logistic-regression | k-neareast-neighbour``` algorithm. The datasets trained using ```random-forest-classifier```, scaling was not done.
 
-### Feature Selection
+6. Feature Selection
 
 In datasets with large number of features, the ```information-gain``` algorithm was used to remove features with low priority. 
 
@@ -98,7 +98,7 @@ Make sure your ```pip``` is up to date & install the pipenv packaging tool.
 
 ### On your terminal type the following command
 ```
-git clone 
+git clone https://github.com/Roman251/LF-Major-Project.git
 
 pipenv shell
 pipenv install --skip-lock
