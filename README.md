@@ -56,9 +56,9 @@ The categorical/nominal variables present were binary. Simple ```replace()``` fu
 
 5. Feature Scaling
 
-The features were scaled using the Standardization technique when training the model using the ```logistic-regression | k-neareast-neighbour``` algorithm. The datasets trained using ```random-forest-classifier```, scaling was not done.
+The features were scaled using the Standardization technique when training the model using the ```logistic-regression | k-neareast-neighbour``` algorithm. For the datasets trained using ```random-forest-classifier```, scaling was not done.
 
-6. Feature Selection
+### Feature Selection
 
 In datasets with large number of features, the ```information-gain``` algorithm was used to remove features with low priority. 
 
@@ -70,11 +70,6 @@ The image datasets were trained using the ```fastai-resnet``` algorithm.
 
 Upon training the model, it was serialized as **pickle** files
 
-### Model Deployement Framework
-
-The ```streamlit``` framework was used to create the interface and develope the application so as to deploy it on the cloud.  
-
-
 ## Model Explainability
 When it comes to the Health-Domain, we would also need to know why we suffer from a disease(if we do suffer from it). For instance, a diabetic patient would need to know what contributes to him being diabetic. Is it because his **glucose-levels** are high or is it because his **insulin-levels** are off the chart? 
 
@@ -85,6 +80,11 @@ The following is a shapash plot that shows the contribution of each feature(Y-ax
 This was only implemented for kidney and cancer.
 
 <img src = "images/image/shapash.png" width=500 height=300>
+
+
+### Model Deployement Framework
+
+The ```streamlit``` framework was used to create the interface and develope the application so as to deploy it on the cloud.  
 
 ## ⏳ Installation Requirements
 1. Operating system: macOS / OS X · Linux · Windows
